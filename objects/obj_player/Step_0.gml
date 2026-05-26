@@ -14,19 +14,23 @@ if keyboard_check(vk_right)
 
 move_wrap(true, true, 0);
 
-if mouse_check_button_pressed(mb_left)
+if (mouse_check_button_pressed(mb_left)) 
 {
-	instance_create_layer(x,y, "instances", obj_bullet);
+   if (powerup == 1)
+       {
+       	var _bullet = instance_create_layer(x, y, "instances", obj_bullet);
+       	_bullet.direction += 10;
+       	_bullet = instance_create_layer(x, y, "instances", obj_bullet);
+       	_bullet.direction -= 10 
+       }
+   else{
+       var _bullet = instance_create_layer(x, y, "instances", obj_bullet);
+       _bullet.direction = direction;
+   }
 }
-if (powerup == 1)
+if ( mouse_check_button (mb_left) and powerup == 3)
 {
-	var _bullet = instance_create_layer(x, y, "instances", obj_bullet);
-	_bullet.direction += 10;
-	_bullet = instance_create_layer(x, y, "instances", obj_bullet);
-	_bullet.direction -= 10
-}
-if mouse_check_button_pressed (mb_left)
-{
-	instance_create_layer(x, y, "instances", obj_bullet);
-	audio_play_sound(snd_bang, 0, false, 1, 0, random_range(0.8, 1.2));
+    var _bullet = instance_create_layer(x, y, "instances", obj_bullet);
+    _bullet.direction = image_angle;
+    audio_play_sound(snd_bang, 0, false, 1, 0, random_range(0.8, 1.2));
 }
