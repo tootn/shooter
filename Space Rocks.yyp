@@ -53,7 +53,6 @@
     {"id":{"name":"rapid_fire_powerup","path":"objects/rapid_fire_powerup/rapid_fire_powerup.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"id":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
     {"id":{"name":"snd_bang","path":"sounds/snd_bang/snd_bang.yy",},},
     {"id":{"name":"snd_boom","path":"sounds/snd_boom/snd_boom.yy",},},
     {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},
@@ -73,7 +72,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
-    {"roomId":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
