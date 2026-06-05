@@ -57,6 +57,7 @@
     {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},
     {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},},
     {"id":{"name":"rapid_fire","path":"sprites/rapid_fire/rapid_fire.yy",},},
+    {"id":{"name":"space_stars","path":"sprites/space_stars/space_stars.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
