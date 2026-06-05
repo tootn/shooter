@@ -5,3 +5,4 @@ instance_destroy();
 obj_game.alarm[0] = 120;
 
 audio_play_sound(snd_boom, 0, false);
+room_goto(rm_score);
